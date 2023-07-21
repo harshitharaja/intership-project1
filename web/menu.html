@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+       <title>menu</title>
+       <link rel="stylesheet" href="menucss.css">
+       
+        <style>
+           
+        </style>
+    </head>
+    <body>
+         <section id="banner1">
+           <div class="section">
+           
+             
+      
+            
+      
+           <img align="center" src="https://img.freepik.com/free-vector/creative-restaurant-menu-digital-use-with-photo_52683-45622.jpg?w=2000" 
+                width="2000" height="3000">
+    
+            
+          
+ 
+           
+           </div> 
+           
+        </section>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about us.html">ABOUT US</a></li> 
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="review.html">REVIEW</a></li>
+                    <li><a href="con.html">CONTACT</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div id="menuBtn">
+            <img style="float:right" src="https://png.pngitem.com/pimgs/s/70-706768_menu-bar-comments-menu-bar-icon-png-transparent.png" alt=""/>
+        </div>
+
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            sideNav.style.right = "-750px";
+            menuBtn.onclick = function() {
+                if (sideNav.style.right == "-750px") {
+                    sideNav.style.right = "0";
+                    menu.src = "https://logowik.com/content/uploads/images/close1437.jpg"
+                }
+                else {
+                    sideNav.style.right = "-750px";
+                    menu.src = "https://png.pngitem.com/pimgs/s/70-706768_menu-bar-comments-menu-bar-icon-png-transparent.png";
+
+                }
+            }
+
+
+        </script>
+        
+     
+       
+           
+    </body>
+</html>

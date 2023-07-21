@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>The Seven Spicies</title>
+        <link rel="stylesheet" href="hs.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital@1&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <section id="banner">
+            <img src="https://previews.123rf.com/images/aurielaki/aurielaki1705/aurielaki170500009/78785762-food-truck-logotype-for-restaurant-delivery-service-or-food-festival-vector-logo.jpg" class="logo">  
+             <div class="banner-text">
+                 <h1>The Seven Spices</h1>
+                <p>fast fresh delicious!</p>
+                 <div class="banner-btn">
+                    <a href="#"><span></span>Find Out</a>
+                    <a href="#"><span></span>Read More</a>
+                    
+             
+                    
+               </div>
+            </div>
+                          
+        </section>
+         <div id="sideNav">
+            <nav>
+                <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="about us.html">ABOUT US</a></li> 
+                   <li><a href="menu.html">MENU</a></li>
+                   <li><a href="gallery.html">GALLERY</a></li>
+                   <li><a href="review.html">REVIEW</a></li>
+                   <li><a href="con.html">CONTACT</a></li>
+                </ul>
+            </nav>
+             
+            </div>
+         <div id="menuBtn">
+            <img src="https://png.pngitem.com/pimgs/s/70-706768_menu-bar-comments-menu-bar-icon-png-transparent.png" id="menu">
+        </div>
+        
+        <script>
+                var menuBtn = document.getElementById("menuBtn")
+                var sideNav = document.getElementById("sideNav")
+                var menu = document.getElementById("menu")
+                sideNav.style.right="-750px";
+                menuBtn.onclick = function(){
+                    if(sideNav.style.right=="-750px"){
+                        sideNav.style.right="0";
+                        menu.src="https://logowik.com/content/uploads/images/close1437.jpg"
+                    }
+                    else{
+                        sideNav.style.right="-750px";
+                        menu.src="https://png.pngitem.com/pimgs/s/70-706768_menu-bar-comments-menu-bar-icon-png-transparent.png";
+                        
+                    }
+                }
+                    
+                
+            </script>
+    </body>
+</html>
